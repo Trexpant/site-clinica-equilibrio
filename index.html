@@ -66,16 +66,15 @@
         }
 
         .logo {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: var(--primary-dark);
             display: flex;
             align-items: center;
-            gap: 0.5rem;
         }
 
-        .logo span {
-            color: var(--text-dark);
+        .logo img {
+            height: 52px;
+            width: auto;
+            object-fit: contain;
+            border-radius: 6px;
         }
 
         nav ul {
@@ -143,8 +142,8 @@
             min-height: 100vh;
             display: flex;
             align-items: center;
-            padding: 40 5%;
-            background: url("https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/images/hero_bg.jpeg") center center / cover no-repeat;
+            padding: 0 5%;
+            background: url("https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/WhatsApp_Image_2026-04-16_at_05_56_03__2_.jpeg") center center / cover no-repeat;
         }
 
         .hero::before {
@@ -415,11 +414,7 @@
 
     <header>
         <div class="logo">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
-            </svg>
-            Clínica<span>Equilíbrio</span>
+            <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/logo_clinica_equilíbrio.png" alt="Clínica Equilíbrio - Saúde e Bem Estar">
         </div>
         <nav>
             <ul>
@@ -430,7 +425,7 @@
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
-        <a href="https://wa.me/559293131266" class="btn" target="_blank">Agendar agora</a>
+        <a href="https://wa.me/5592000000000" class="btn" target="_blank">Agendar agora</a>
     </header>
 
     <!-- HERO: foto profissional da fisioterapeuta -->
@@ -440,7 +435,7 @@
             <p>Especialistas em Fisioterapia e Pilates dedicados à sua recuperação. Tratamentos personalizados para
                 dores crônicas, reabilitação pós-cirúrgica e dificuldades de movimentação.</p>
             <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
-                <a href="https://wa.me/559293131266" class="btn" target="_blank">Fale pelo WhatsApp</a>
+                <a href="https://wa.me/5592000000000" class="btn" target="_blank">Fale pelo WhatsApp</a>
                 <a href="#servicos" class="btn btn-outline">Nossos Serviços</a>
             </div>
         </div>
@@ -513,7 +508,7 @@
         <!-- Fisioterapia: pilates antigravidade no aparelho -->
         <div class="service-row">
             <div class="service-img">
-                <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/images/WhatsApp_Image_2026-04-16_at_05_56_00.jpeg"
+                <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/WhatsApp_Image_2026-04-16_at_05_56_00.jpeg"
                     alt="Sessão de Fisioterapia">
             </div>
             <div class="service-content">
@@ -527,14 +522,14 @@
                     <li style="margin-bottom: 0.5rem;">✓ Cinesioterapia Funcional</li>
                     <li>✓ Reeducação Postural (RPG)</li>
                 </ul>
-                <a href="https://wa.me/559293131266" class="btn" target="_blank">Agendar Fisioterapia</a>
+                <a href="https://wa.me/5592000000000" class="btn" target="_blank">Agendar Fisioterapia</a>
             </div>
         </div>
 
         <!-- Pilates: barrel/arco -->
         <div class="service-row">
             <div class="service-img">
-                <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/images/WhatsApp_Image_2026-04-16_at_05_56_01.jpeg"
+                <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/WhatsApp_Image_2026-04-16_at_05_56_01.jpeg"
                     alt="Aparelhos de Pilates">
             </div>
             <div class="service-content">
@@ -548,14 +543,14 @@
                     <li style="margin-bottom: 0.5rem;">✓ Pilates Solo (Mat)</li>
                     <li>✓ Acompanhamento Personalizado</li>
                 </ul>
-                <a href="https://wa.me/559293131266" class="btn" target="_blank">Conhecer o Pilates</a>
+                <a href="https://wa.me/5592000000000" class="btn" target="_blank">Conhecer o Pilates</a>
             </div>
         </div>
 
         <!-- Estética: tratamento facial -->
         <div class="service-row">
             <div class="service-img">
-                <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/images/WhatsApp_Image_2026-04-16_at_05_56_02.jpeg"
+                <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/WhatsApp_Image_2026-04-16_at_05_56_02.jpeg"
                     alt="Estética Avançada">
             </div>
             <div class="service-content">
@@ -577,29 +572,26 @@
                 tratamentos que transformam a vida dos nossos pacientes.</p>
         </div>
         <div class="gallery-grid">
-            <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/images/WhatsApp_Image_2026-04-16_at_05_55_59.jpeg" alt="Pilates antigravidade">
-            <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/images/WhatsApp_Image_2026-04-16_at_05_56_00__1_.jpeg" alt="Exercício no aparelho">
-            <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/images/WhatsApp_Image_2026-04-16_at_05_56_00__2_.jpeg" alt="Pilates clínico">
-            <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/images/WhatsApp_Image_2026-04-16_at_05_56_00__3_.jpeg" alt="Movimento e equilíbrio">
-            <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/images/WhatsApp_Image_2026-04-16_at_05_56_01__1_.jpeg" alt="Pilates barrel">
-            <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/images/WhatsApp_Image_2026-04-16_at_05_56_01__2_.jpeg" alt="Treino funcional">
-            <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/images/WhatsApp_Image_2026-04-16_at_05_56_01__3_.jpeg" alt="Tração cervical">
-            <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/images/WhatsApp_Image_2026-04-16_at_05_56_02__1_.jpeg" alt="Equipamento cervical">
-            <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/images/WhatsApp_Image_2026-04-16_at_05_56_02__2_.jpeg" alt="Exercícios de reabilitação">
-            <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/images/WhatsApp_Image_2026-04-16_at_05_56_02__3_.jpeg" alt="Estética facial">
-            <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/images/WhatsApp_Image_2026-04-16_at_05_56_03__1_.jpeg" alt="Fisioterapeuta especialista">
-            <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/images/WhatsApp_Image_2026-04-16_at_05_56_03__2_.jpeg" alt="Dra. na clínica">
+            <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/WhatsApp_Image_2026-04-16_at_05_55_59.jpeg" alt="Pilates antigravidade">
+            <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/WhatsApp_Image_2026-04-16_at_05_56_00__1_.jpeg" alt="Exercício no aparelho">
+            <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/WhatsApp_Image_2026-04-16_at_05_56_00__2_.jpeg" alt="Pilates clínico">
+            <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/WhatsApp_Image_2026-04-16_at_05_56_00__3_.jpeg" alt="Movimento e equilíbrio">
+            <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/WhatsApp_Image_2026-04-16_at_05_56_01__1_.jpeg" alt="Pilates barrel">
+            <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/WhatsApp_Image_2026-04-16_at_05_56_01__2_.jpeg" alt="Treino funcional">
+            <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/WhatsApp_Image_2026-04-16_at_05_56_01__3_.jpeg" alt="Tração cervical">
+            <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/WhatsApp_Image_2026-04-16_at_05_56_02__1_.jpeg" alt="Equipamento cervical">
+            <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/WhatsApp_Image_2026-04-16_at_05_56_02__2_.jpeg" alt="Exercícios de reabilitação">
+            <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/WhatsApp_Image_2026-04-16_at_05_56_02__3_.jpeg" alt="Estética facial">
+            <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/WhatsApp_Image_2026-04-16_at_05_56_03__1_.jpeg" alt="Fisioterapeuta especialista">
+            <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/WhatsApp_Image_2026-04-16_at_05_56_03__2_.jpeg" alt="Dra. na clínica">
         </div>
     </section>
 
     <footer id="contato">
         <div class="footer-grid">
             <div class="footer-col">
-                <div class="logo" style="margin-bottom: 1rem; color: var(--white);">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2">
-                        <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
-                    </svg>
-                    Clínica <span style="color: var(--primary);">Equilíbrio</span>
+                <div style="margin-bottom: 1rem;">
+                    <img src="https://raw.githubusercontent.com/trexpant/site-clinica-equilibrio/main/logo_clinica_equilíbrio.png" alt="Clínica Equilíbrio" style="height: 52px; width: auto; border-radius: 6px;">
                 </div>
                 <p>Transformando o bem-estar através do movimento consciente e do cuidado especializado na saúde.</p>
             </div>
@@ -609,7 +601,7 @@
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2">
                         <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                     </svg>
-                    <a href="https://wa.me/559293131266" target="_blank">WhatsApp: (92) (Diga o número faltante)</a>
+                    <a href="https://wa.me/5592000000000" target="_blank">WhatsApp: (92) (Diga o número faltante)</a>
                 </p>
                 <p>
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2">
